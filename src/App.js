@@ -111,10 +111,6 @@ function App() {
   return (
     <div className="App">
       <Header data={data} formatNumber={formatNumber} />
-      <pre>HERE:{curData1.rate}</pre>
-      <pre>HERE:{curData2.rate}</pre>
-      <pre>HERE SUM:{curData2.rate * curData1.rate}</pre>
-
       <div className="selector-container">
         <Selector
           handleChange={handleChange1}
